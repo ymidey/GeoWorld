@@ -34,3 +34,7 @@ Les professeurs pourront avoir accès à la modification des données géopoliti
 •	Élève : aimerait disposer d'un outil qui réponde à ses interrogations ainsi que prendre plaisir à consulter les informations présentées
 
 •	Administrateur : disposer d'une interface d'administration de l'application (gestion des utilisateurs, leurs droits)
+
+# Rapport de projet
+
+Un rapport de projet plus complet est à retrouver dans le fichier "rapport_de_projet.pdf"
