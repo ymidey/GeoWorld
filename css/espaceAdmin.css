@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive-table-line table {
+    width          : 80%;
+    margin         : auto;
+    border-collapse: collapse;
+    border         : 1px solid #bdc3c7;
+    box-shadow     : 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.responsive-table-line tr {
+    transition: all .2s ease-in;
+}
+
+.responsive-table-line th,
+.responsive-table-line td {
+    padding      : 12px 15px;
+    text-align   : center;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.responsive-table-line #header {
+    background-color: #16a085;
+    color           : #fff;
+}
+
+.responsive-table-line tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+h1 {
+    font-weight     : 600;
+    text-align      : center;
+    background-color: #16a085;
+    color           : #fff;
+    padding         : 0px 0px;
+
+}
+
+.responsive-table-line tr:hover {
+    background-color: #f5f5f5;
+    transform       : scale(1.02);
+    box-shadow      : 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.lien{
+        padding-bottom:5% ;
+        text-align: center;
+    }
+
+h2 {
+    display: none;
+}
+
+.responsive-table-line .hidden {
+    height  : 1px;
+    overflow: hidden;
+    width   : 1px;
+}
+
+.responsive-table-line .flecheHaut {
+    width      : 25px;
+    height     : 20px;
+    margin-top : -22px;
+    margin-left: 160px;
+    float      : right;
+}
+
+.responsive-table-line .flecheBas {
+
+    width     : 25px;
+    height    : 20px;
+    margin-top: -6px;
+
+    float: right;
+
+}
+
+@media (max-width: 1550px) {
+    .responsive-table-line td:before {
+        content: attr(data-title);
+    }
+
+    .responsive-table-line table,
+    .responsive-table-line thead,
+    .responsive-table-line tbody,
+    .responsive-table-line th,
+    .responsive-table-line td,
+    .responsive-table-line tr {
+        display: block;
+    }
+
+    h2 {
+        display         : contents;
+        font-size       : 13px;
+        background-color: gray;
+        text-align      : center;
+    }
+
+    h2 .btn {
+
+        padding      : 10px;
+        font-size    : 12px;
+        color        : white;
+        background   : #16a085;
+        border       : none;
+        border-radius: 5px;
+        transition   : all .2s ease-in;
+        display      : block;
+        margin       : auto;
+        cursor       : pointer;
+    }
+
+    .responsive-table-line tbody tr {
+        border: 1px solid #227fbd;
+    }
+
+    .responsive-table-line thead tr {
+        display: none;
+    }
+
+    h1 {
+        font-size: 33px;
+    }
+
+    .responsive-table-line td {
+
+        position    : relative;
+        border      : 1px solid transparent;
+        padding-left: 50% !important;
+        white-space : normal;
+        align-items : left;
+        font-size: 80%;
+
+    }
+    
+
+    .responsive-table-line td:before {
+        position        : absolute;
+        top             : 0px;
+        left            : 0px;
+        width           : 35%;
+        padding-right   : 10px;
+        height          : 100%;
+        white-space     : nowrap;
+        text-overflow   : ellipsis !important;
+        overflow        : hidden !important;
+        text-align      : left;
+        background-color: #f8f8f8;
+        padding         : 2px;
+    }
+
+}
