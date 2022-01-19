@@ -4,7 +4,7 @@ Projet HTML/CSS/JS Avril 2021
          site GéoWorld
 # Auteur
 
-MIDEY Yannick
+Y.Midey
 
 # Langage de programmation
 
@@ -34,8 +34,3 @@ Les professeurs pourront avoir accès à la modification des données géopoliti
 •	Élève : aimerait disposer d'un outil qui réponde à ses interrogations ainsi que prendre plaisir à consulter les informations présentées
 
 •	Administrateur : disposer d'une interface d'administration de l'application (gestion des utilisateurs, leurs droits)
-
-# Aperçu du site internet
-
-![alt text](https://github.com/ymidey/GeoWorld/blob/main/aper%C3%A7u-site-geoworld.PNG?raw=true)
-![alt text](https://github.com/ymidey/GeoWorld/blob/main/aper%C3%A7u-site-geoworld-Tableau.PNG?raw=true)
